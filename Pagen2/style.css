@@ -1,0 +1,55 @@
+.cover
+{
+color:black;
+height: 400px;
+background-image: url("_images/_headBG.jpg");
+background-size: cover;
+background-position: center;
+background-color:rgba(80, 107, 81, 0.5); 
+background-blend-mode: darken;
+}
+
+.font-title
+{
+    font-family:'Libre Baskerville', serif;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family:'Libre Baskerville', serif;
+}
+.cover-small
+{
+    height: 250px;
+    background-blend-mode: normal;
+}
+
+.card
+{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.6);
+}
+
+.card-title
+{
+    min-height: 3rem;
+}
+.card-text
+{
+    min-height: 5rem;
+}
+
+.stripe-container
+{
+    display:flex;
+}
+
+.stripe-container .card
+{
+    width: 250px;
+    flex-shrink: 0;
+}
+.product-stripe
+{
+    overflow-x:auto ;
+}
